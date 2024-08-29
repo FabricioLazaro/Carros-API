@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 node_modules/
 *.env
 dist
 
+=======
+# ignore node_modules
+>>>>>>> e4d75860d55c5da1979b1a2737e8d746d7816ff1
