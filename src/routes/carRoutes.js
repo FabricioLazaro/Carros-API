@@ -1,6 +1,8 @@
 const express = require('express');
-const { Marcas, Cars } = require('../models/carModel');
+const { Cars } = require('../models/carModel');
 const router = express.Router();
+const errorHandler = require('../middlewares/errorHandler.js')
+const carController = require('../controllers/carController.js');
 
 /**
  * @swagger
@@ -104,11 +106,7 @@ router.get('/Carros', (req, res) => {
  *         $ref: '#/components/responses/NotFound'
  */
 router.get('/Carros/:id', (req, res) => {
-    const carro = CarrosId(parseInt(req.params.id));
-    if (carro.length === 0) {
-        return res.status(404).json({ error: "Carro não encontrado" });
-    }
-    res.json(carro);
+    carController.getCarById(req, res)
 });
 
 /**
@@ -155,21 +153,7 @@ router.get('/', (req, res) => {
  *         $ref: '#/components/responses/BadRequest'
  */
 router.post('/Carros', (req, res) => {
-    const { Marca, Modelo, Ano } = req.body;
-
-    if (!Marca || !Modelo || !Ano || !parseInt(Ano)) {
-        return res.status(400).send("Preencha o campo corretamente!49");
-    }
-
-    if (typeof Marca === "string" && !Marcas.includes(Marca)) {
-        return res.status(400).send("Preencha o campo corretamente!50");
-    }
-
-    // Gerar um ID único (simulação)
-    const novoId = Cars.length > 0 ? Cars[Cars.length - 1].Id + 1 : 1;
-    const novoCarro = { Id: novoId, Marca, Modelo, Ano };
-    Cars.push(novoCarro);
-    res.status(201).send('Carro cadastrado com sucesso!');
+    carController.createCar(req, res)
 });
 
 /**
@@ -207,28 +191,8 @@ router.post('/Carros', (req, res) => {
  *       404:
  *         $ref: '#/components/responses/NotFound'
  */
-router.put('/Carros/:id', (req, res) => {
-
-    const { Marca, Modelo, Ano } = req.body;
-
-    if (!Marca || !Modelo || !Ano || !parseInt(Ano)) {
-        return res.status(400).send("Preencha o campo corretamente!");
-    }
-
-    if (typeof Marca !== "string" || !Marcas.includes(Marca)) {
-        return res.status(400).send("Preencha o campo corretamente!");
-    }
-
-    let index = CarrosIndex(parseInt(req.params.id));
-
-    if (index === -1) { 
-        return res.status(404).send("Id não encontrado!");
-    } else { 
-        Cars[index].Marca = Marca;
-        Cars[index].Modelo = Modelo;
-        Cars[index].Ano = Ano;
-    }
-    res.status(200).json(Cars);
+router.put('/Carros/:id', async (req, res) => {
+    carController.updateCar(req, res);
 });
 
 /**
@@ -257,12 +221,10 @@ router.put('/Carros/:id', (req, res) => {
  *         $ref: '#/components/responses/NotFound'
  */
 router.delete('/Carros/:id', (req, res) => {
-    let index = CarrosIndex(parseInt(req.params.id));
-    if (index === -1) {
-        return res.status(404).send("Id não encontrado!");
-    }
-    Cars.splice(index, 1);
-    res.send(`Carro com o id: ${req.params.id} excluído com sucesso!`);
+    carController.deleteCar(req, res)
 });
+
+router.use(errorHandler)
+
 
 module.exports = router;

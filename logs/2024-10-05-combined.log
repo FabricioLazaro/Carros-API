@@ -1,0 +1,14 @@
+2024-10-05T17:31:09.077Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-05T17:31:09.090Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-05T17:53:19.762Z [error] : Erro na rota /Carros/1: Cannot read properties of undefined (reading 'id')
+2024-10-05T17:53:54.251Z [error] : Erro na rota /Carros/1: Cannot read properties of undefined (reading 'id')
+2024-10-05T17:56:00.984Z [error] : Erro na rota /Carros/1: Cannot read properties of undefined (reading 'id')
+2024-10-05T17:56:02.340Z [error] : Erro na rota /Carros/1: Cannot read properties of undefined (reading 'id')
+2024-10-05T17:56:03.046Z [error] : Erro na rota /Carros/1: Cannot read properties of undefined (reading 'id')
+2024-10-05T17:56:45.993Z [error] : Erro na rota /Carros/1: Cannot read properties of undefined (reading 'id')
+2024-10-05T17:57:34.174Z [error] : Erro na rota /Carros/1: Cannot read properties of undefined (reading 'id')
+2024-10-05T17:58:36.470Z [error] : Erro na rota /Carros/1: Cannot read properties of undefined (reading 'id')
+2024-10-05T18:00:49.166Z [error] : Erro na rota /Carros/1: carController is not defined
+2024-10-05T18:01:26.988Z [error] : Erro na rota /Carros/1: carController is not defined
+2024-10-05T18:02:20.650Z [error] : Erro na rota /Carros/1: 1 is not a function
+2024-10-05T18:03:01.641Z [error] : Erro na rota /Carros/1: 1 is not a function

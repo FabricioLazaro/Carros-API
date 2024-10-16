@@ -1,0 +1,15 @@
+2024-10-03T17:16:42.749Z [error] : Erro na rota /Carros/2: Cannot set headers after they are sent to the client
+2024-10-03T17:16:42.783Z [error] : Erro na rota /Carros/2: Cannot set headers after they are sent to the client
+2024-10-03T17:17:40.405Z [error] : Erro na rota /Carros/2: Cannot set headers after they are sent to the client
+2024-10-03T17:17:40.413Z [error] : Erro na rota /Carros/2: Cannot set headers after they are sent to the client
+2024-10-03T17:17:42.963Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-03T17:17:42.965Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-03T17:19:57.515Z [error] : Erro na rota /Carros/1: Cannot read properties of undefined (reading 'params')
+2024-10-03T17:23:28.033Z [error] : Erro na rota /Carros/2: indexCar.splice is not a function
+2024-10-03T17:24:12.677Z [error] : Erro na rota /Carros/2: indexCar.splice is not a function
+2024-10-03T17:24:22.441Z [error] : Erro na rota /Carros/2: Cannot read properties of undefined (reading 'splice')
+2024-10-03T17:56:08.788Z [error] : Erro na rota /Carros/1: next is not a function
+2024-10-03T17:56:08.796Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-03T18:05:03.207Z [error] : Erro na rota /Carros/1: CarrosId is not defined
+2024-10-03T18:07:01.218Z [error] : Erro na rota /Carros/1: Cannot read properties of undefined (reading 'id')
+2024-10-03T18:07:21.087Z [error] : Erro na rota /Carros/1: Cannot read properties of undefined (reading 'id')

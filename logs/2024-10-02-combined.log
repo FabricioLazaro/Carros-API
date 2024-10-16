@@ -1,0 +1,46 @@
+2024-10-02T03:38:55.112Z [error] : Erro na rota /Carros/1: CarrosId is not defined
+2024-10-02T03:58:49.124Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T03:58:49.132Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T03:58:51.783Z [error] : Erro na rota /Carros/2: Cannot set headers after they are sent to the client
+2024-10-02T03:58:51.785Z [error] : Erro na rota /Carros/2: Cannot set headers after they are sent to the client
+2024-10-02T03:58:54.170Z [error] : Erro na rota /Carros/3: Cannot set headers after they are sent to the client
+2024-10-02T03:58:54.172Z [error] : Erro na rota /Carros/3: Cannot set headers after they are sent to the client
+2024-10-02T03:59:01.459Z [info] : Requisição DELETE em /Carros/
+2024-10-02T03:59:04.769Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T03:59:04.771Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T03:59:39.555Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T03:59:39.563Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:00:18.773Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:00:18.781Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:00:44.324Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:00:44.331Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:02:04.988Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:02:04.995Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:06:22.444Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:06:22.451Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:06:22.717Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:06:22.718Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:06:56.633Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:06:56.640Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:09:24.442Z [error] : Erro na rota /Carros/1: req.params.id is not a function
+2024-10-02T04:11:56.463Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:11:56.470Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:12:17.389Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:12:17.397Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:14:14.793Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:14:14.800Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:14:22.413Z [error] : Erro na rota /Carros/2: Cannot set headers after they are sent to the client
+2024-10-02T04:14:22.415Z [error] : Erro na rota /Carros/2: Cannot set headers after they are sent to the client
+2024-10-02T04:20:32.564Z [error] : Erro na rota /Carros/2: Cannot set headers after they are sent to the client
+2024-10-02T04:20:32.571Z [error] : Erro na rota /Carros/2: Cannot set headers after they are sent to the client
+2024-10-02T04:21:42.532Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:21:42.538Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:26:52.888Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:26:52.895Z [error] : Erro na rota /Carros/1: Cannot set headers after they are sent to the client
+2024-10-02T04:30:11.775Z [error] : Erro na rota /Carros/1: CarrosId is not defined
+2024-10-02T04:30:14.986Z [error] : Erro na rota /Carros/2: CarrosId is not defined
+2024-10-02T04:40:42.279Z [error] : Erro na rota /Carros/1: CarrosId is not defined
+2024-10-02T04:45:06.247Z [error] : Erro na rota /Carros/2: Cannot set headers after they are sent to the client
+2024-10-02T04:45:06.254Z [error] : Erro na rota /Carros/2: Cannot set headers after they are sent to the client
+2024-10-02T04:45:29.336Z [error] : Erro na rota /Carros/2: Cannot set headers after they are sent to the client
+2024-10-02T04:45:29.343Z [error] : Erro na rota /Carros/2: Cannot set headers after they are sent to the client

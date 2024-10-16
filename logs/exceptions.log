@@ -1,0 +1,6 @@
+2024-10-07T18:16:40.464Z [error] : Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (C:\Users\fabri\projeto1\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\Users\fabri\projeto1\node_modules\express\lib\response.js:175:12)
+    at exports.updateCar (C:\Users\fabri\projeto1\src\controllers\carController.js:39:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
